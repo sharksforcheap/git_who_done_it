@@ -19,7 +19,7 @@ if status == "nothing to commit"
 			file.puts "still here"
 		end
 	end
-	File.open(.s.rb, "w") do |file|
+	File.open(".s.rb", "w+") do |file|
 		file.puts "@hidden = 'you should reset to the last commit'"
 	end
 	puts "When you wake up, you see that your directory structure has been completely changed."
