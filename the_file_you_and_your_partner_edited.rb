@@ -1,3 +1,5 @@
+require '.m.rb'
+
 "We have received an annonymous tip that reads the following:"
 
 "It also says:"
